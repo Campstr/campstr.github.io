@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p {
+    font-family: Arial;
+}
+
+h3{
+    font-weight: bold;
+}
+
+header{
+    background-image: url(./imagenes/fondo.jpg);
+    background-size: 1300px 600px;
+    width: 1300px;
+    height: 600px;
+    border: 2px solid;
+}
+
+.container{
+    text-align: center;
+    background-color: white;
+    color: black;
+    opacity: 0.70;
+    position: relative;
+    top: 125px
+
+}
+
+html{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
